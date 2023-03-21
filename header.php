@@ -3,45 +3,31 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="robots" content="" />
+    <title>Boiler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link href="img/favicon.ico" rel="icon"/>
+	<link href="img/favicon.ico" rel="shortcut icon"/>
 
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <meta name="" content="" />
+    <meta name="" content="" />
+<!--     <meta name="robots" content="" /> -->
+
+    <script src="bootstrap/js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    
+    
     <link rel="stylesheet" href="style.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'> 
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed|Ubuntu" rel="stylesheet">
 
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+ 
+  				<script src="processing.js"></script>
+
 
 </head>
 
 <body>
-    <div class="blanket">
-	    
-	    <nav class="navbar navbar-top navbar-default navbar-inverse">
-            <div class="container">
-                <button class="navbar-toggle" data-target=".navHeaderCollapse" data-toggle="collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="collapse navbar-collapse navHeaderCollapse">
-                    <a href="index.php" class="navbar-brand">Victor Portillo</a>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="?page=work.php"> Profile </a>
-                        </li>
-                        <li><a href="work.php"> Work </a>
-                        </li>
-                        <li><a href="blog.php"> Blog </a>
-                        </li>
-                        <li><a href="contact.php"> Contact </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
