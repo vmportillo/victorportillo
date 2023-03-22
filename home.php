@@ -1,15 +1,11 @@
 
          
          
-         
-                 <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center homepage ">
-                    <h1>Victor Portillo</h1>
-                    <h3>Designer / Developer / Artist</h3>
-                    <a>View Projects</a>
-                </div>
-            </div>
 
-        </div>
-    </div>
+<div class="container text-center">
+	
+	<div class="row">
+		<h2>Victor Portillo</h2>
+		<h5>DESIGNER & COMMUNICATION</h5>
+	</div>
+</div>
