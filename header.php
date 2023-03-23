@@ -30,3 +30,6 @@
 
 <body>
 
+<div id="loader">
+  <div class="spinner"></div>
+</div>
