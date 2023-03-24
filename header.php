@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Boiler</title>
+    <title>Victor Portillo - Designer & Communication</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<link href="img/favicon.ico" rel="icon"/>
@@ -23,13 +23,13 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'> 
 	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed|Ubuntu" rel="stylesheet">
 
- 
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
 
 
 </head>
 
 <body>
 
-<div id="loader">
-  <div class="spinner"></div>
-</div>

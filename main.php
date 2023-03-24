@@ -1,13 +1,10 @@
 
-<div class="container text-left ">
+<div class="container-fluid text-left align-items-end ">
 	
-		<div class="row">
-			<div class="col-md-12 bottom">
-	
-	
-	
+		<div class="row align-items-end bottom flex-container">
+			<div class="col-md-8 col-xs-12 left-div">
 		<br>
-			<h4><b>EDUCATION</b></h4>
+			<h6><b>EDUCATION</b></h6>
 			<h4>M.A. Communication<br>
 			<small>University of Texas at El Paso</small></h4>
 					
@@ -16,19 +13,26 @@
 			<small>University of Texas at El Paso</small></h4>
 			<h4>
 			<br>
-			<h4><b>AWARDS</b></h4>
+			<h6><b>AWARDS</b></h6>
 			<h4><small>American Advertising Federation<br>
 				College Media Association<br>
 				Texas Intercollegiate Press Association’s</small></h4>
 			</h4>
 			<h4>
-		
 		</div>
+		<div class="col-md-4 col-xs-12 text-left right-div">
+
+			<a href="#"><h4>Contacto</h4></a>
+		</div>
+		
+		
+		
 	</div>
 
 </div>
 
 <script>
+
 $(window).on('load', function() {
   // Set the duration of the loader to 3 seconds (3000 milliseconds)
   setTimeout(function() {
@@ -39,5 +43,14 @@ $(window).on('load', function() {
   }, 2000);
 });
 
+
+
+$(document).ready(function() {
+  var delay = 100; //  Delay between each animation in milliseconds
+  $('body *').each(function(index) {
+//     $(this).delay(delay * index).animate({opacity: '1'}, 1300);
+    $(this).delay(delay * index).animate({opacity: '1'}, 100);
+  });
+});
 
 </script>

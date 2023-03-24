@@ -1,6 +1,6 @@
-<div class="container text-left">
+<div class="container text-left head_info">
 	
-	<div class="row ">
+	<div class="row">
 		<div class="col-md-12 top">
 		<h2>Victor Portillo</h2>
 		<h5>DESIGNER & COMMUNICATION</h5>
