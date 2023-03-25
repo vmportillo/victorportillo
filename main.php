@@ -57,5 +57,13 @@ setTimeout(function() {
 }, 1000);
 
 
+$(document).mousemove(function(event) {
+  var colors = ['#FF5733', '#C70039', '#900C3F', '#581845', '#2E86C1'];
+  var randomColor = colors[Math.floor(Math.random() * colors.length)];
+  
+  $('h5,h6,.right-div h4').css('color', randomColor);
+  
+  
+});
 
 </script>
