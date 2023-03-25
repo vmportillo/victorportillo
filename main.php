@@ -57,7 +57,8 @@ setTimeout(function() {
 }, 1000);
 
 
-$(document).mousemove(function(event) {
+/*
+$(document).on('mousemove touchmove', function(event)  {
   var colors = ['#FF5733', '#C70039', '#900C3F', '#581845', '#2E86C1'];
   var randomColor = colors[Math.floor(Math.random() * colors.length)];
   
@@ -65,5 +66,6 @@ $(document).mousemove(function(event) {
   
   
 });
+*/
 
 </script>
