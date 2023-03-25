@@ -33,24 +33,29 @@
 
 <script>
 
-$(window).on('load', function() {
-  // Set the duration of the loader to 3 seconds (3000 milliseconds)
-  setTimeout(function() {
-    $('#loader').fadeOut(4000, function() {
-      $(this).remove();
-    });
-    $('body').fadeIn(7000);
-  }, 2000);
-});
 
 
 
 $(document).ready(function() {
-  var delay = 100; //  Delay between each animation in milliseconds
-  $('body *').each(function(index) {
-//     $(this).delay(delay * index).animate({opacity: '1'}, 1300);
-    $(this).delay(delay * index).animate({opacity: '1'}, 100);
-  });
+
+  // Set the duration of the loader to 3 seconds (3000 milliseconds)
+	  setTimeout(function() {
+	    $('body').fadeIn(7000);
+
+			    $('#loader').fadeOut(1500, function() {
+			    $(this).remove();
+	    });
+	  }, 1500);
+  
 });
+
+setTimeout(function() {
+  var delay = 200; // Delay between each animation in milliseconds
+  $('body *').each(function(index) {
+    $(this).delay(delay * index).animate({opacity: '1'}, 1300);
+  });
+}, 1000);
+
+
 
 </script>

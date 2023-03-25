@@ -26,14 +26,16 @@ p {
 
 
 h3, h1, li, h6, h5 {
-	color: #6032e4;
+	color: #8bafb7 !important;
 }
 
 h3,  li {
 	color: #757575;
 }
 
-
+.vp-blue {
+	#4287f5
+}
 
 
 
@@ -115,7 +117,7 @@ li {
 
 
 .right-div h4 {
-		color: #6032e4;
+		color: #7ab2be;
 
 }
 
