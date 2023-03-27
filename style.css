@@ -1,12 +1,14 @@
 body, html {
 /*     background: white; */
-    font-family: 'Ubuntu', sans-serif !important;
+/*     font-family: 'Ubuntu', sans-serif !important; */
 /*         height: 100%; */
 
 }
 
 body * {
 	opacity: 0;
+	font-family: "proxima-nova", sans-serif;
+	font-style: normal;
 }
 
 h3 {
@@ -27,6 +29,14 @@ p {
 
 h3, h1, li, h6, h5 {
 	color: #8bafb7 !important;
+	font-weight: 100;
+	
+}
+
+h5 {
+	font-size: 14px;
+	font-weight: 700;
+
 }
 
 h3,  li {

@@ -22,7 +22,7 @@
 		</div>
 		<div class="col-md-4 col-xs-12 text-left right-div">
 
-			<a href="#"><h4>Contacto</h4></a>
+			<a href="#"><h4>Lets talk!</h4></a>
 		</div>
 		
 		
