@@ -67,12 +67,14 @@ setTimeout(function() {
 
 
 
+
 setTimeout(function() {
-    $('.awards, .education').addClass('visible');
 	
     // Add a class to the awards div to make it visible
-    $('.awards, .education').removeClass('visible');
+	$('.awards, .education').removeClass('visible');
+    
     $('.awards, .education').slideToggle(1300,'swing'); 
+
  
   }, 10000);
   

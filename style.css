@@ -51,7 +51,7 @@ h3,  li {
 
 
 .awards, .education {
-  display: none;
+  display: visible;
 }
 
 
