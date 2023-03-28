@@ -30,6 +30,14 @@
 
 	<link rel="stylesheet" href="https://use.typekit.net/xgu5wia.css">
 
+<!-- Required Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Required Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
 </head>
 
 <body>

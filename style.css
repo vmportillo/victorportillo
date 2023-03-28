@@ -50,6 +50,11 @@ h3,  li {
 
 
 
+.awards, .education {
+  display: none;
+}
+
+
 .main-panel, .second-panel {
 
     height: 100%;
